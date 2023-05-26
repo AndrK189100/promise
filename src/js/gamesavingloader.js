@@ -19,11 +19,3 @@ export default class GameSavingLoader {
 //   console.log(saving)
 // })
 
-// static load() {
-//   return new Promise((saving, reject) => {
-//     read().then((bufferview) => json(bufferview))
-//       .then((data) => {
-//         saving(data);
-//       }) ;
-//   });
-// }
