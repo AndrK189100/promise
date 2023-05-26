@@ -1,7 +1,7 @@
-import GameSavingLoader from '../gamesavingloader';
-import read from '../reader';
+import GameSavingLoader from '../gamesavingloader.js';
+import read from '../reader.js';
 
-jest.mock('../reader');
+jest.mock('../reader.js');
 
 beforeEach(() => {
   jest.resetAllMocks();
