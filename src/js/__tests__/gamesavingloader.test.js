@@ -13,7 +13,7 @@ test('GameSavingLoader load if resolved', async () => {
   expect(await GameSavingLoader.load()).toBe('A');
 });
 
-test('GameSavingLoader load if resolved', async () => {
+test('GameSavingLoader load if rejected', async () => {
   read.mockReturnValue(new Promise((resolve, reject) => reject(new Error('ОШИБКА'))));
   try {
     await GameSavingLoader.load();
